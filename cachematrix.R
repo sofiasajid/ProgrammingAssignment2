@@ -1,7 +1,7 @@
 ## These two functions computes inverse of invertible matrix 
 ## by taking a matrix as an input from the user
 
-## this function accepts a matrix as an input from the user 
+## makeCacheMatrix function accepts a matrix as an input from the user 
 ##and set the value of cache to inverse of matrix
 
 makeCacheMatrix <- function(mat=matrix()) {
@@ -21,7 +21,7 @@ makeCacheMatrix <- function(mat=matrix()) {
 }
 
 
-##  This function cehecks the cache for inverse or to calculate the inverse after validating the matrix for inverse calculation
+##  cacheSolve function cehecks the cache for inverse or to calculate the inverse after validating the matrix for inverse calculation
 
 cacheSolve<- function(x, ...) {
   inv <- x$getinverse()
